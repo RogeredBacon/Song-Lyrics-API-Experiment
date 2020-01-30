@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Song Lyrics App</title>
+		<script src="src/index.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<h1>Find a songs lyrics!</h1>
+		<div style="float: right;">
+			<p id="song-lyrics">Here are the lyrics:</p>
+			<blockquote id="lyrics"></blockquote>
+		</div>
+		<div id="song-image-container">
+			<img
+				src="https://i.ytimg.com/vi/b--f4xpdvEk/maxresdefault.jpg"
+				width="500"
+			/>
+		</div>
+
+		<hr />
+		<h3>Enter a band and song to get the lyrics:</h3>
+		<form id="form">
+			Artist Name:<br />
+			<input type="text" name="artist" id="artist" />
+			<br />
+			Song Name:<br />
+			<input type="text" name="song" id="song" />
+			<br /><br />
+			<input id="submit-button" type="submit" value="Submit" />
+		</form>
+	</body>
+</html>
